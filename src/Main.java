@@ -16,10 +16,10 @@ public class Main {
         String color_c1 = sc.nextLine();
 
         System.out.print("Kilometraje: ");
-        Double modelo_c1 = sc.nextDouble();
+        Double kilometraje_c1 = sc.nextDouble();
 
         System.out.print("¿El auto esta acelerando?: ");
-        Boolean acelera_c1 = sc.nextLine();
+        Boolean acelera_c1 = sc.hasNextBoolean();
 
 
 
