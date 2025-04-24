@@ -13,13 +13,13 @@ public class Main {
         String modelo_c1 = sc.nextLine();
 
         System.out.print("Color: ");
-        String modelo_c1 = sc.nextLine();
+        String color_c1 = sc.nextLine();
 
         System.out.print("Kilometraje: ");
-        String modelo_c1 = sc.nextLine();
+        Double modelo_c1 = sc.nextDouble();
 
         System.out.print("¿El auto esta acelerando?: ");
-        String modelo_c1 = sc.nextLine();
+        Boolean acelera_c1 = sc.nextLine();
 
 
 

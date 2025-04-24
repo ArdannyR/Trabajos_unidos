@@ -23,11 +23,11 @@ public class Vehiculo {
     public void avanzar_detener_vehiculo() {
         if (acelera == true){
             acelera = false;
-            System.out.printf("El vehiculo esta siendo conducido: %B",acalera);
+            System.out.printf("El vehiculo esta siendo conducido: %B",acelera);
         }
         else {
             acelera = true;
-            System.out.printf("El vehiculo esta siendo conducido: %B",acalera);
+            System.out.printf("El vehiculo esta siendo conducido: %B",acelera);
         }
 
     }
