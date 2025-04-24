@@ -22,8 +22,5 @@ public class Main {
         String modelo_c1 = sc.nextLine();
 
 
-
-
-
     }
 }
