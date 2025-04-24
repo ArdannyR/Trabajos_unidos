@@ -4,6 +4,7 @@ public class Vehiculo {
     String color;
     double kilometraje;
     String placa;
+    Boolean acelera = 1;
 
     // Constructor
     public Vehiculo(String modelo, String color, double kilometraje, String placa){
@@ -12,13 +13,6 @@ public class Vehiculo {
         this.kilometraje = kilometraje;
         this.placa = placa;
     }
-
-
-
-
-
-
-
 
     public void info_de_vehiculo   () {
         System.out.printf("Vehiculo de modelo %s, color %s, placa %s \nTiene un kilometraje de: %.2f km",modelo,color,placa,kilometraje);
