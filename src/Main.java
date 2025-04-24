@@ -21,7 +21,7 @@ public class Main {
         String color_c1 = sc.nextLine();
 
         System.out.print("Kilometraje: ");
-        Double kilometraje_c1 = sc.nextDouble();
+        Double kilometraje_c1 = sc.nextDouble(); sc.nextLine();
 
         System.out.print("Placa: ");
         String placa_c1 = sc.nextLine();
@@ -39,8 +39,8 @@ public class Main {
 
         //Frenado
 
-        c1.avanzar_detener_vehiculo();
-        c1.info_de_vehiculo();
+        c3.avanzar_detener_vehiculo();
+        c3.info_de_vehiculo();
 
 
     }

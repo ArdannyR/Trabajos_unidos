@@ -17,19 +17,11 @@ public class Vehiculo {
 
     // Metodo de datos
     public void info_de_vehiculo   () {
-        System.out.printf("Vehiculo de modelo %s, color %s, placa %s \nTiene un kilometraje de: %.2f km",modelo,color,placa,kilometraje);
+        System.out.printf("\nVehiculo de modelo %s, color %s, placa %s \nTiene un kilometraje de: %.2f km\nCarro conducido: %B\n\n",modelo,color,placa,kilometraje,acelera);
     }
 
     // Metodo de avanzar y o detener
     public void avanzar_detener_vehiculo() {
-        if (acelera == true){
-            acelera = false;
-            System.out.printf("El vehiculo esta siendo conducido: %B",acelera);
-        }
-        else {
-            acelera = true;
-            System.out.printf("El vehiculo esta siendo conducido: %B",acelera);
-        }
-
+        System.out.printf("El vehiculo esta siendo conducido: %B",acelera);
     }
 }
