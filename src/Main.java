@@ -22,8 +22,5 @@ public class Main {
         Boolean acelera_c1 = sc.hasNextBoolean();
 
 
-
-
-
     }
 }
