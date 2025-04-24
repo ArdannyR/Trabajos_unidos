@@ -4,6 +4,7 @@ public class Vehiculo {
     String color;
     double kilometraje;
     String placa;
+    Boolean acelera;
 
     // Constructor
     public Vehiculo(String modelo, String color, double kilometraje, String placa){
