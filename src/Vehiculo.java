@@ -7,11 +7,12 @@ public class Vehiculo {
     Boolean acelera;
 
     // Constructor
-    public Vehiculo(String modelo, String color, double kilometraje, String placa){
+    public Vehiculo(String modelo, String color, double kilometraje, String placa, boolean acelera){
         this.modelo = modelo;
         this.color = color;
         this.kilometraje = kilometraje;
         this.placa = placa;
+        this.acelera = acelera;
     }
 
     // Metodo de datos
