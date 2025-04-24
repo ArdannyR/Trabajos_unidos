@@ -42,6 +42,5 @@ public class Main {
         c3.avanzar_detener_vehiculo();
         c3.info_de_vehiculo();
 
-
     }
 }

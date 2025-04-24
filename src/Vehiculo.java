@@ -22,6 +22,13 @@ public class Vehiculo {
 
     // Metodo de avanzar y o detener
     public void avanzar_detener_vehiculo() {
-        System.out.printf("El vehiculo esta siendo conducido: %B",acelera);
+        if(acelera == true){
+            this.acelera = false;
+            System.out.println("Vehiculo acelerado");
+        }
+        else{
+            this.acelera = true;
+            System.out.println("Vehiculo se esta deteniendo");
+        }
     }
 }
